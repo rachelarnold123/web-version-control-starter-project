@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark"> <!-- Puts the website in dark mode-->
 <!--A <head> tag in HTML defines where the head section is, contains the metadata(everything that is not directly displayed webpage)-->
+
 <head>
   <title>HTML Made Easy</title>
   <meta charset="utf-8">
@@ -11,58 +12,79 @@
 </head>
 
 <!--The <body> tag in HTML represents the start of context visable to a user, its the interactive part of a website-->
+
 <body>
-<div class="container mt-3">
-  <h1>HTML Made Easy</h1>
-  <h5>by Rachel Arnold</h5>
-  <h8>Website is run by GitHub</h8>
-  <img class="img-fluid" src="Images/computer.jpg" class="img-thumbnail" alt="Picture of working website on computer" width="304" height="236">
-  <p>This webpage is a intro to HTML & BootStrap in HTML. By the end of this you will be able to create a website just like this one! If you are new to HTML or Bootstrap, read the drop down menus below!</p>
+  <div class="container mt-3">
+    <h1>HTML Made Easy</h1>
+    <h5>by Rachel Arnold</h5>
+    <h8>Website is run by GitHub</h8>
+    <p> </p> <!--Maybe added a space??-->
+    <img class="img-fluid" src="Images/computer.jpg" class="img-thumbnail" alt="Picture of working website on computer"
+      width="304" height="236">
+    <p>This webpage is a intro to HTML & BootStrap in HTML. By the end of this you will be able to create a website just
+      like this one! If you are new to HTML or Bootstrap, read the drop down menus below!</p>
 
 
-<!--Creates a button for HTML Overview-->
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        HTML Overview
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>HTML is how programmers write websites.</strong> HTML stands for Hyper Text Markup Language. It is the standard language for creating webpages in markup. It helps describe the structure of a webpage. HTML consists of a series of elements that tells the brower to to display it. As well as automatically labeling context like "this is a paragraph"
-          
-        <img class="img-fluid" src="Images/html.jpg" class="rounded" alt="Picture of HTML code" width="304" height="236"> <!--Adds image to drop down, but not to mess with format of text added a space between-->
+    <!--Creates a button for HTML Overview-->
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            HTML Overview
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>HTML is how programmers write websites.</strong> HTML stands for Hyper Text Markup Language. It is
+            the standard language for creating webpages in markup. It helps describe the structure of a webpage. HTML
+            consists of a series of elements that tells the brower to to display it. As well as automatically labeling
+            context like "this is a paragraph"
+
+            <img class="img-fluid" src="Images/html.jpg" class="rounded" alt="Picture of HTML code" width="304"
+              height="236"> <!--Adds image to drop down, but not to mess with format of text added a space between-->
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<!--This creates a button to expand text that expalins Bootstrap-->
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Bootstrap Overview
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>Bootstrap allows you to write easier HTML Files.</strong> When you use Bootstrap in HTMl you are using prewritten CSS to quickly and efficivly add style or functionality to your website 
+    <!--This creates a button to expand text that expalins Bootstrap-->
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Bootstrap Overview
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Bootstrap allows you to write easier HTML Files.</strong> When you use Bootstrap in HTMl you are
+            using prewritten CSS to quickly and efficivly add style or functionality to your website
+          </div>
+        </div>
       </div>
+
+      <h2>Images made Easy</h2>
+      <p>Websites are not complete without images so how do you add them? To add your first image, follow the step by step guide below!</p>
+      <ol>
+        <li>Find a free(not copyrighted) jpeg image online and download it(You can also name it something easy to remeber like "computer.jpg)</li>
+        <li>Create a folder in your website's folder for images</li>
+        <li>Move your new image into the image folder of your website</li>
+        <li>Go into your index.html folder</li>
+        <li>Add the image onto your website by doing the following</li><p>Start by writing "img", for src= put the directory to the image, and for alt= write a breif description of what the image is showing. Make sure to put   img src="Images/computer.jpg" alt="Picture of working website on computer"
+      width="304" height="236"</p>
+        <li>Finally once you load your website you should have a image! If this doesnt work, please refer to "HTML Image Help" in Resources</li>
+      </ol>
     </div>
-  </div>
 
-  <h2>Images made Easy</h2>
-  <p>Websites are not complete without images so how do you add them?</p>
-</div>
-
-<!--Added a heading for resources, with 3 links to learn about HTML, CSS, & Bootstrap-->
-  <h2>Resources to Learn More</h2>
-  <ul>
-    <li><a href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a></li>
-    <li><a href="https://www.w3schools.com/css/default.asp">CSS Tutorial</a></li>
-    <li><a href="https://www.w3schools.com/bootstrap5/index.php">Bootstrap 5 Tutorial</a></li>
-  </ul>
+    <!--Added a heading for resources, with 3 links to learn about HTML, CSS, & Bootstrap-->
+    <h2>Resources to Learn More</h2>
+    <ul>
+      <li><a href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a></li>
+      <li><a href="https://www.w3schools.com/css/default.asp">CSS Tutorial</a></li>
+      <li><a href="https://www.w3schools.com/bootstrap5/index.php">Bootstrap 5 Tutorial</a></li>
+      <li><a href="https://www.w3schools.com/html/html_images.asp">HTML Image Help</a></li>
+    </ul>
 
 
 </body>
