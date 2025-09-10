@@ -16,17 +16,25 @@
   <h1>HTML Made Easy</h1>
   <h5>by Rachel Arnold</h5>
   <img src="Images/computer.jpg" class="img-thumbnail" alt="Picture of working website on computer" width="304" height="236">
-  <p>This webpage is run by GitHub and is a intro to HTML & BootStrap in HTML. By the end of this you will be able to create a website just like this one!</p>
-  <img src="Images/html.jpg" alt="Picture of HTML code" style="width:500px;height:600px;">
+  <p>This webpage is run by GitHub and is a intro to HTML & BootStrap in HTML. By the end of this you will be able to create a website just like this one! If you are new to HTML or Bootstrap, read the drop down menus below!</p>
 
-<!--Added a heading for resources, with 3 links to learn about HTML, CSS, & Bootstrap-->
-  <h2>Resources to Learn More</h2>
-  <ul>
-    <li><a href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a></li>
-    <li><a href="https://www.w3schools.com/css/default.asp">CSS Tutorial</a></li>
-    <li><a href="https://www.w3schools.com/bootstrap5/index.php">Bootstrap 5 Tutorial</a></li>
-  </ul>
 
+<!--Creates a button for HTML Overview-->
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        HTML Overview
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>HTML is how programmers write websites.</strong> HTML stands for Hyper Text Markup Language. It is the standard language for creating webpages in markup. It helps describe the structure of a webpage. HTML consists of a series of elements that tells the brower to to display it. As well as automatically labeling context like "this is a paragraph"
+          <img src="Images/html.jpg" class="rounded" alt="Picture of HTML code" width="304" height="236"> <!--Testing to see if this will work-->
+      </div>
+    </div>
+  </div>
+</div>
 <!--This creates a button to expand text that expalins Bootstrap-->
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
@@ -42,21 +50,15 @@
     </div>
   </div>
 </div>
-<!--Here is copy & paste of code above to create a button for HTML Overview-->
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        HTML Overview
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>HTML is how programmers write websites.</strong> HTML stands for Hyper Text Markup Language. It is the standard language for creating webpages in markup. It helps describe the structure of a webpage. HTML consists of a series of elements that tells the brower to to display it. As well as automatically labeling context like "this is a paragraph"
-      </div>
-    </div>
-  </div>
-</div>
+
+<!--Added a heading for resources, with 3 links to learn about HTML, CSS, & Bootstrap-->
+  <h2>Resources to Learn More</h2>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a></li>
+    <li><a href="https://www.w3schools.com/css/default.asp">CSS Tutorial</a></li>
+    <li><a href="https://www.w3schools.com/bootstrap5/index.php">Bootstrap 5 Tutorial</a></li>
+  </ul>
+
 
 </body>
 
